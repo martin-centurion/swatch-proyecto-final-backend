@@ -1,0 +1,123 @@
+button {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.close-menu, .open-menu {
+    display: none;
+}
+
+/** MEDIA QUERY **/
+
+@media screen and (max-width: 770px){
+    .banner__content {
+        grid-template-areas: 
+        "icono titulo"
+        "texto texto";
+    }
+
+    .nav-list {
+        position: fixed;
+        inset: 0;
+        background-color: var(--clr-primario);
+        flex-direction: column;
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        gap: 5rem;
+        transform: translateX(100%);
+        visibility: hidden;
+        opacity: 0;
+        transition: .2s;
+
+        & .active {
+            transform: translateX(0);
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+
+    .nav-link {
+        font-size: 1.6rem;
+    }
+
+    .close-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .open-menu {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .banner__content-logo i {
+        font-size: 10rem;
+    }
+
+    .banner__content-titulo {
+        font-size: 5rem;
+        align-self: center;
+    }
+
+    .productos-img {
+        grid-template-columns: 1fr;
+
+        & article {
+            align-items: center;
+        }
+
+        & a {
+            width: 400px;
+        }
+    }
+    
+    .form__content-formulario form {
+        justify-content: center;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 690px){
+    .banner__content {
+        grid-template-areas: 
+        "icono icono"
+        "titulo titulo"
+        "texto texto";
+        }
+    
+
+    .productos-img article img {
+        width: 300px;
+    }
+
+    .productos-img article a {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .productos-img article img {
+        width: 250px;
+    }
+
+    .productos-img article a {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .productos-img article img {
+        width: 220px;
+    }
+
+    .productos-img article a {
+        width: 220px;
+    }
+}

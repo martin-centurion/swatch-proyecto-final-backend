@@ -1,0 +1,27 @@
+<div class="login">
+    <div class="login__content">
+        <article>
+            <form action="/auth/login" method="POST">
+                <h1>Login</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="login__content-input">
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <div class="login__content-input">
+                    <button type="submit">Ingresar</button>
+                </div>
+            </form>
+                <div class="login__content-footer">
+                    <div class="login__content-footer-github">
+                        <p class="login__content-footer-github-text">Acceder con cuenta de Github.</p>
+                        <a class="login__content-footer-github-icon" href="/api/sessions/github"><i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="login__content-footer-button">
+                        <a href="/register">Registrarse</a> <span>|</span>
+                        <a href="/restore-password" >Olvido su contraseña?</a>
+                    </div>
+                </div>
+        </article>
+    </div>
+</div>

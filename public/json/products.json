@@ -1,0 +1,202 @@
+[
+    {
+        "title": "Red Graphite",
+        "description": "Este reloj ultrafino de acero inoxidable tiene un estilo atemporal. El acero pulido de este elegante reloj realza la esfera negra satinada con estampados rojos y detalles de Swatch plateados. El elegante brazalete incluye una hebilla con forma de mariposa.",
+        "price": 104.995,
+        "stock": 94,
+        "code": "abc1",
+        "thumbnails": "https://static.swatch.com/images/product/SS07S129G/sa200/SS07S129G_sa200_er005.png",
+        "category": "Hombres"
+        
+    },
+    {
+        "title": "Formal Blue 42",
+        "description": "Este reloj ultrafino de acero inoxidable tiene un estilo atemporal. El acero pulido de este elegante reloj realza la esfera negra satinada con estampados rojos y detalles de Swatch plateados. El elegante brazalete incluye una hebilla con forma de mariposa.",
+        "price": 96.995,
+        "stock": 94,
+        "code": "abc2",
+        "thumbnails": "https://static.swatch.com/images/product/SS07S125/sa200/SS07S125_sa200_er005.png",
+        "category": "Hombres"
+    },
+    {
+        "title": "Silverall",
+        "description": "Este reloj ultrafino de acero inoxidable tiene un estilo atemporal. El acero pulido de este elegante reloj realza la esfera negra satinada con estampados rojos y detalles de Swatch plateados. El elegante brazalete incluye una hebilla con forma de mariposa.",
+        "price": 45.995,
+        "stock": 94,
+        "code": "abc3",
+        "thumbnails": "https://static.swatch.com/images/product/GM416/sa200/GM416_sa200_er005.png",
+        "category": "Mujer"
+    },
+    {
+        "title": "Brrrave Pinguins",
+        "description": "¡Hora de yoga! Unos simpáticos pingüinos danzan en el reloj para niños BRRRAVE PINGUINS, un regalo educativo para aprender a decir la hora.",
+        "price": 18.995,
+        "stock": 94,
+        "code": "abc4",
+        "thumbnails": "https://static.swatch.com/flikflak/images/product/ZFBNP206/fa200/ZFBNP206_fa200_er007.png",
+        "category": "Niños"
+    },
+    {
+        "title": "Be Hoppy!",
+        "description": "Los conejitos saltan con sus patinetes por el arcoíris del reloj educativo para Niños BE HOPPY !, un regalo divertido para aprender a decir la hora.",
+        "price": 18.995,
+        "stock": 94,
+        "code": "abc5",
+        "thumbnails": "https://static.swatch.com/flikflak/images/product/ZFBNP207/fa200/ZFBNP207_fa200_er007.png",
+        "category": "Niños"
+    },
+    {
+        "title": "Silver Glam",
+        "description": "SILVER GLAM IN BIOSOURCED muestra sus engranajes de forma fascinante a través de una ventana recortada en el centro de la esfera de cristal de origen biológico. Una sólida caja de material biológico negro mate se engasta en la correa de silicona negra mate y roja de este reloj.",
+        "price": 52.995,
+        "stock": 94,
+        "code": "abc6",
+        "thumbnails": "https://static.swatch.com/images/product/SO29B109/sa200/SO29B109_sa200_er005.png",
+        "category": "Hombres"
+    },
+    {
+        "title": "Ishtar By Jean",
+        "description": "El reloj ISHTAR BY JEAN-MICHEL BASQUIAT reinterpreta la obra Ishtar de Jean-Michel Basquiat. Este modelo cuenta con una esfera negra llena de palabras y números que son reproducciones exactas de la obra de arte original. En la caja y la correa se pueden ver los dibujos en forma de caras de esta obra sobre un fondo turquesa.",
+        "price": 59.995,
+        "stock": 94,
+        "code": "abc7",
+        "thumbnails": "https://static.swatch.com/images/product/SUOZ356/sa200/SUOZ356_sa200_er005.png",
+        "category": "Hombres"
+    },
+    {
+        "title": "Greem Graphite",
+        "description": "Este reloj ultrafino de acero inoxidable tiene un estilo atemporal. El acero pulido de este elegante reloj realza la esfera negra satinada con estampados verdes y detalles de Swatch plateados. El elegante brazalete incluye una hebilla con forma de mariposa.",
+        "price": 104.995,
+        "stock": 94,
+        "code": "abc8",
+        "thumbnails": "https://static.swatch.com/images/product/SS07S128G/sa200/SS07S128G_sa200_er005.png",
+        "category": "Hombres"
+    },
+    {
+        "title": "Dark Blue Irony",
+        "description": "Este reloj ultrafino de acero inoxidable tiene un estilo atemporal. El acero pulido de este elegante reloj realza la esfera negra satinada con estampados verdes y detalles de Swatch plateados. El elegante brazalete incluye una hebilla con forma de mariposa.",
+        "price": 104.995,
+        "stock": 94,
+        "code": "abc9",
+        "thumbnails": "https://static.swatch.com/images/product/YVS507G/sa200/YVS507G_sa200_er005.png",
+        "category": "Hombres"
+    },
+    {
+        "title": "Rose Rebel",
+        "description": "Este reloj ultrafino de acero inoxidable tiene un estilo atemporal. El acero pulido de este elegante reloj realza la esfera negra satinada con estampados verdes y detalles de Swatch plateados. El elegante brazalete incluye una hebilla con forma de mariposa.",
+        "price": 13.195,
+        "stock": 94,
+        "code": "abc10",
+        "thumbnails": "https://static.swatch.com/images/product/ASUOT700/sa130/ASUOT700_sa130_er005.png",
+        "category": "Accesorios"
+    },
+    {
+        "title": "Coral Dreams",
+        "description": "Este reloj de color durazno pastel incluye una caja transparente y brillante de origen biológico color naranja con un cristal de origen biológico que brilla con el efecto Solar Spectrum. La correa semitransparente de color rosa mate incluye una trabilla y una hebilla naranjas.",
+        "price": 45.995,
+        "stock": 94,
+        "code": "abc11",
+        "category": "Mujer",
+        "thumbnails": "https://static.swatch.com/images/product/SO28O401/sa200/SO28O401_sa200_er005.png"
+    },
+    {
+        "title": "Dark Spark",
+        "description": "Este elegante reloj SKIN IRONY incluye una correa de piel nobuk y una caja de PVD negro brillante. Su esfera negra pulida resalta los doce cristales negros adheridos directamente al cristal.",
+        "price": 111.995,
+        "stock": 94,
+        "code": "abc12",
+        "thumbnails": "https://static.swatch.com/images/product/SYXB106/sa200/SYXB106_sa200_er005.png",
+        "category": "Mujer"
+    },
+    {
+        "title": "Big Bold",
+        "description": "Este modelo BIG BOLD BIOCERAMIC de tamaño oversize cuenta con una robusta correa de silicona azul mate con estampados en distintos tonos de azul. Su caja y bisel, fabricados en BIOCERAMIC, también vienen en el mismo color azul mate.",
+        "price": 90.795,
+        "stock": 94,
+        "code": "abc13",
+        "thumbnails": "https://static.swatch.com/images/product/SB03N102/sa200/SB03N102_sa200_er005.png",
+        "category": "Mujer"
+    },
+    {
+        "title": "Flowerz",
+        "description": "Este divertido reloj incluye una correa con estampados florales y una caja blanca mate de origen biológico. La esfera de este reloj también es blanca con coloridos números estampados y una flor. Las agujas de color amarillo brillante y blanco indican la hora.",
+        "price": 43.595,
+        "stock": 94,
+        "code": "abc14",
+        "thumbnails": "https://static.swatch.com/images/product/SO28W108/sa200/SO28W108_sa200_er005.png",
+        "category": "Mujer"
+    },
+    {
+        "title": "Farfallaxus",
+        "description": "El reloj para niños FARFALLAXUS es perfecto para aprender a decir la hora. Un regalo educativo con una correa estampada con mariposas de lo más elegante que les encantará.",
+        "price": 31.995,
+        "stock": 94,
+        "code": "abc15",
+        "thumbnails": "https://static.swatch.com/flikflak/images/product/ZFCSP119/fa000/ZFCSP119_fa000_ec002.png",
+        "category": "Niños"
+    },
+    {
+        "title": "Catch U",
+        "description": "La espléndida combinación del enigmático negro y los elementos en naranja neón convierte al CATCH U en el accesorio perfecto para estar al mando de una nave espacial. Gracias a los detalles de neón en la esfera y el bisel giratorio, aprender a decir la hora será un auténtico juego.",
+        "price": 33.995,
+        "stock": 94,
+        "code": "abc16",
+        "thumbnails": "https://static.swatch.com/flikflak/images/product/ZFCSP093/sa360/ZFCSP093_1.png",
+        "category": "Niños"
+    },
+    {
+        "title": "Lovaxus",
+        "description": "El reloj LOVAXUS es el regalo perfecto para que los niños aprendan a decir la hora. Luce una correa estampada, una esfera metalizada y un segundero con forma de corazón. Un reloj educativo y elegante.",
+        "price": 31.995,
+        "stock": 94,
+        "code": "abc17",
+        "thumbnails": "https://static.swatch.com/flikflak/images/product/ZFCSP115/sa360/ZFCSP115_59.png",
+        "category": "Niños"
+    },
+    {
+        "title": "Stripy Dreams",
+        "description": "¿Qué es lo que nos espera allá, al final del arco iris? Tan divertido como descubrirlo va a ser aprender a leer la hora. En este colorido reloj suizo infantil, las franjas realzan su potencial como accesorio de moda. ¡Verás cómo las horas se transforman en un sueño llueva o haga sol!",
+        "price": 25.795,
+        "stock": 94,
+        "code": "abc18",
+        "thumbnails": "https://static.swatch.com/flikflak/images/product/ZFPNP014/fa000/ZFPNP014_fa000_ec002.png",
+        "category": "Niños"
+    },
+    {
+        "title": "Shaq 34 Gold",
+        "description": "Shaq 34 Gold / St. Steel PVD adj.strap",
+        "price": 20.395,
+        "stock": 94,
+        "code": "abc19",
+        "thumbnails": "https://static.swatch.com/images/product/ASVCK4008G/sa130/ASVCK4008G_sa130_er005.png",
+        "category": "Accesorios"
+    },
+    {
+        "title": "Shaq 34 Gold",
+        "description": "Shaq 34 Gold / St. Steel PVD adj.strap",
+        "price": 20.395,
+        "stock": 94,
+        "code": "abc20",
+        "images": "https://static.swatch.com/images/product/AGS124/sa130/AGS124_sa130_er005.png",
+        "category": "Accesorios"
+    },
+    {
+        "title": "Shades Of Neon",
+        "description": "Este reloj retro de vivos colores está inspirado en un reloj Swatch de los 90, el SKYCHART GN705. Su esfera neón multicolor está engastada en una caja transparente de origen biológico color amarillo. La correa rosa intenso y la hebilla amarilla transparente complementan el look neón de este Swatch vintage.",
+        "price": 66.995,
+        "stock": 94,
+        "code": "abc21",
+        "thumbnails": "https://static.swatch.com/images/product/SO28J700/sa200/SO28J700_sa200_er005.png",
+        "category": "Mujer"
+    },
+
+    {
+        "title": "Purity of neon",
+        "description": "Este reloj retro de gran tamaño está inspirado en un Swatch Chrono de los 90, el WHITE HORSES CHRONO SCW100. Su esfera neón multicolor y sus coloridas coronas resaltan sobre la caja y la correa de origen biológico color blanco puro.",
+        "price": 93.295,
+        "stock": 94,
+        "code": "abc22",
+        "thumbnails": "https://static.swatch.com/images/product/SB06W100/sa200/SB06W100_sa200_er005.png",
+        "category": "Mujer"
+    }
+]

@@ -1,0 +1,93 @@
+
+.banner {
+        &__content {
+            display: flex;
+            margin: 2rem 0 2rem;
+        
+            &-titulo {
+                font-size: .8rem;
+                font-weight: 300;
+                letter-spacing: .095rem;
+                text-transform: uppercase;
+                align-self: flex-end;
+                color: var(--clr-secundario);
+            }
+        }
+}
+
+.productos {
+    display: flex;
+
+    &__content {
+        display: flex;
+        flex-flow: column wrap;
+
+        &-title {
+            color: var(--clr-secundario);
+            font-size: 1.5rem;
+            text-align: center;
+            padding-block: 2rem;
+        }
+
+        &-nav {
+            align-self: center;
+            margin-bottom: 2rem;
+        }
+
+        & ul {
+            display: flex;
+            flex-flow: row wrap;
+
+            & li {
+                font-size: .9rem;
+                text-transform: uppercase;
+                margin: 1rem;
+            }
+        }
+    }
+
+    &-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+
+        & article {
+            display: flex;
+            padding: 2rem;
+            border: 2px solid var(--clr-terciario);
+            //background-color: var(--clr-terciario);
+            border-radius: 10px;
+            flex-flow: column wrap;
+            text-align: center;
+            align-items: center;
+            gap: 1rem; 
+
+            & > p {
+                color: var(--clr-secundario);
+                font-size: .9rem;
+                text-transform: uppercase;
+                letter-spacing: .2rem;
+            }
+
+            & > img {
+                height: 180px;
+                align-items: center;
+            }
+        }
+
+        & a {
+            padding: 1rem;
+            border: 1px solid var(--clr-secundario);
+            color: var(--clr-secundario);
+            border-radius: 10px;
+            font-size: .8rem;
+            transition: .3s;
+
+            &:hover {
+                color: var(--clr-terciario);
+                background-color: var(--clr-secundario);
+            }
+        }
+    }
+}
+

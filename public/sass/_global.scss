@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --ff-title: 'Montserrat', sans-serif;
+    --ff-text: 'Varela Round', sans-serif;
+    --clr-primario: #FFFBF5;
+    --clr-secundario: #61488e;
+    --clr-terciario: #C3ACD0;
+    --clr-span: #F7EFE5;
+    --clr-green: #D2DE32;
+}
+
+body {
+    background-color: var(--clr-primario);
+    color: var(--clr-primario);
+    font-family: var(--ff-title);
+}
+
+a:disabled {
+    background: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}

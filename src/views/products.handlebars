@@ -1,0 +1,106 @@
+<header class="header container">
+        <h1 class="header__logo">Swatch</h1>
+        <nav class="nav-menu">
+            <button class="open-menu" id="open-menu"><i class="bi bi-list"></i></button>
+            <ul id="nav-list" class="nav-list">
+                <button class="close-menu" id="close-menu"><i class="bi bi-x-lg"></i></button>
+                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+            </ul>    
+        </nav>
+        <nav class="nav-icon">
+              <li class="nav-item"><a href="/register"><i class="bi bi-person"></i></a></li>
+              <li class="nav-item"><a href="/logout"><i class="bi bi-person-dash"></i></a></li>
+              <li class="nav-item"><a href="/carts/{{userCart}}" role="button" class="cart-link"><i class="bi bi-bag"></i></a></li>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__content">
+                    <h1 class="banner__content-titulo">Bienvenido, {{userName}} - {{userRole}}</h1>
+                    <h1>{{userRole}}</h1>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="productos__content container">
+                <div class="productos__content-title">
+                    <h2>Productos</h2>
+                </div>
+
+                <div class="productos__content-nav">
+                    <ul>
+                        <li><a class="nav-link-portfolio" href="/products">todos</a></li>
+                        <li><a class="nav-link-portfolio" href="/products?group=Mujer">mujer</a></li>
+                        <li><a class="nav-link-portfolio" href="/products?group=Hombres">hombres</a></li>
+                        <li><a class="nav-link-portfolio" href="/products?group=Niños">niños</a></li>
+                        <li><a class="nav-link-portfolio" href="/products?group=Accesorios">accesorios</a></li>
+                        <li><a class="nav-link-portfolio" href="/products?sort=asc">Menor Precio</a></li>
+                        <li><a class="nav-link-portfolio" href="/products?sort=desc">Mayor precio</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="productos-img">
+                  {{#each payload}}
+                        <article>
+                          <img src={{ this.thumbnails }} alt={{ this.title }}>
+                          <p>{{ this.title }}</p>
+                          <p><strong>${{ this.price }}</strong></p>
+                          <a href="#" class="addToCart" id="add"  data-productid="{{ this._id }}"  data-owner="{{ this.owner }}">Agregar al Carrito</a>
+                        </article>
+                  {{/each}}  
+                </div>
+            </div>
+            
+        </section>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__content">
+                    <h1 class="banner__content-titulo">Register Product.
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="login__content">
+        <article>
+            <form id="form-product">
+                    <h1>Agregar Producto</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="login__content-input">
+                    <input type="text" id="title" placeholder="title" required>
+                    <input type="text" id="description" placeholder="description" required>
+                    <input type="text" id="category" placeholder="category" required>
+                    <input type="text" id="stock" placeholder="stock" required>
+                    <input type="number" id="price" placeholder="price" required>
+                    <input type="text" id="code" placeholder="code" required>
+                </div>
+                    <div class="login__content-input">
+                        <button type="submit">Crear Producto</button>
+                        <p>Clickee en el siguiente enlace si ya tiene una cuenta.</p>
+                        <a href="/products" >Atras</a>
+                    </div>
+            </form>
+        </article>
+    </div>
+            
+        </section>
+    </main>
+    <footer class="footer">
+          <div>
+              <p class="footer__page">Pagina actual: {{page}}</p>
+              <div class="footer__content-social">
+                  <a href="{{prevLink}}" role="button" class="contrast outline" {{#unless hasPrevPage}}disabled{{/unless}}>Anterior</a>
+                  <a href="{{nextLink}}" role="button" class="contrast outline" {{#unless hasNextPage}}disabled{{/unless}}>Siguiente</a>
+              </div>
+          </div>
+    </footer>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/register-product.js"></script>
+    <script>
+        var userRole = "{{userRole}}";
+        var userEmail = "{{userEmail}}";
+        var cartId = "{{userCart}}";
+    </script>
