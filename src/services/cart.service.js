@@ -26,11 +26,11 @@ export default class CartService {
         return CartDao.deleteById(cartid);
     }
 
-    /* static async deleteProductFromCart(cid, pid) {
+    static async deleteProductFromCart(cid, pid) {
         return CartDao.deleteProductFromCart(cid, pid);
-      } */
+      }
 
     static async addProductToCart(cid, pid) {
         return CartDao.addProduct(cid, pid);
-      }
+    }
 }

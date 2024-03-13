@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  /* const deleteButtons = document.querySelectorAll('.deleteButton');
+  const deleteButtons = document.querySelectorAll('.deleteButton');
   deleteButtons.forEach((button) => {
     button.addEventListener('click', async function (event) {
       event.preventDefault();
@@ -82,4 +82,4 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Error deleting product:', error);
       }
     });
-  }); */
+  });

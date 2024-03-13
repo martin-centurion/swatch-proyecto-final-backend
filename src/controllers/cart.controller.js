@@ -110,4 +110,15 @@ export default class CartController {
         res.status(500).json({ error: 'Error interno del servidor' });
       }
     }
+
+    static async deleteProductFromCart(cid, pid) {
+      try {
+        console.log('CID:', cid);
+        console.log('PID:', pid);
+        await CartService.deleteProductFromCart(cid, pid);
+        console.log('Producto eliminado correctamente');
+      } catch (error) {
+        console.log('El producto no se pudo eliminar', error.message);
+      }
+    }
 }
