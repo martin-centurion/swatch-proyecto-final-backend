@@ -16,7 +16,7 @@ router.get('/carts', authenticationMiddleware('jwt'), async (req, res, next) => 
   }
 });
 
-router.get('/carts/:cid', authenticationMiddleware('jwt'), async (req, res, next) => {
+router.get('/carts/:cid', authenticationMiddleware('jwt'), authorizationMiddleware(['user', 'admin']), async (req, res, next) => {
   const { cid } = req.params;
   try {
     console.log('req', req.user.cart);
@@ -72,5 +72,16 @@ router.post('/carts/:cid/product/:pid', async (req, res, next)=>{
       next(error);
     }
 });
+
+/* router.delete('/carts/:cid/product/:pid', authenticationMiddleware('jwt'), async (req, res) => {
+  try {
+    console.log('llega el delete');
+      const { params: { pid,cid } }= req
+      const cart = await CartController.deleteProductFromCart(cid, pid)
+      res.status(201).send('producto borrado correctamente')
+  } catch (error) {
+    res.status(error.statusCode || 500).json({ message: error.message });
+  }
+}); */
 
 export default router;

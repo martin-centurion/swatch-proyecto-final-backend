@@ -97,6 +97,7 @@ const buildResponse = (data) => {
     userRole: data.role,
     hasPrevPage: data.hasPrevPage,
     hasNextPage: data.hasNextPage,
+    chatLink: `http://localhost:${config.port}/chat`,
     prevLink: data.hasPrevPage ? `http://localhost:${config.port}/products?limit=${data.limit}&page=${data.prevPage}${data.group ? `&group=${data.group}` : ''}${data.sort ? `&sort=${data.sort}` : ''}` : '',
     nextLink: data.hasNextPage ? `http://localhost:${config.port}/products?limit=${data.limit}&page=${data.nextPage}${data.group ? `&group=${data.group}` : ''}${data.sort ? `&sort=${data.sort}` : ''}` : '',
   }

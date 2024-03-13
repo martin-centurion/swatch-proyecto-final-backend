@@ -65,5 +65,29 @@ export default class CartDao {
           throw new Exception(`Product with id "${pid}" doesn't exist.`, 404);
         }
       }
+    
+      /* static async deleteProductFromCart(cartId, productId) {
+        const cart = await CartModel.findById(cartId);
+        if (!cart) {
+          throw new Exception('No existe ese Carrito', 404);
+        }
+    console.log('product', productId);
+        const index = cart.products.findIndex((product) =>{  console.log('pr',product);
+          return  product.product.equals(productId)
+        });
+        console.log('index', index);
+        if (index === -1) {
+          throw new Exception('No existe ese producto dentro del carrito');
+        }
+    
+        cart.products.splice(index, 1);
+        await cart.save();
+      }
+    
+      static async updateById(cartId, data) {
+        const criteria = { _id: cartId };
+        const operation = { $set: data };
+        return CartModel.updateOne(criteria, operation);
+      } */
 
 }

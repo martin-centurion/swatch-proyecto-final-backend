@@ -14,10 +14,11 @@ import userRouter from './routers/api/user.router.js';
 import productApiRouter from './routers/api/productsApi.router.js';
 import cartApiRouter from './routers/api/cartsApi.router.js';
 import emailRouter from './routers/api/email.router.js';
+import chatRouter from './routers/api/chat.router.js'
 
 // Logger
 
-import loggerRouter from './routers/api/logger.router.js'
+import loggerRouter from './routers/api/logger.router.js';
 
 //Views
 
@@ -67,7 +68,8 @@ app.use('/',
     productApiRouter,
     cartApiRouter,
     emailRouter,
-    loggerRouter
+    loggerRouter,
+    chatRouter
     );
 
 app.use('/views', productViewRouter);
